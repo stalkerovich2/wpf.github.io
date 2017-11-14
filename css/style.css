@@ -1,0 +1,259 @@
+/* параметры верстки основных блоков */ 
+body{
+	margin: 0;
+    padding: 0;
+	
+}
+
+.head
+{ 
+width:1131px;
+height:138px;
+background: url(../img/head.png);
+position:relative;
+margin: auto; 
+border:1px solid #F6C942;   
+}
+.line
+{
+	width:1131px;
+	height:auto;
+   background:#004C59;
+	position:relative;
+   margin: auto; 
+   border:1px solid #F6C942; 
+   
+} 
+#crums a
+{
+	text-decoration: none;
+    text-align:justify;
+	font-family: corbel;
+	font-size:12pt;	
+	color:#FFCE42;
+	margin-left: 5px;
+}
+.content1
+{	
+	padding:10px;	
+	position:relative;
+	vertical-align:top;
+	background:white;
+	margin: auto; /* Выравниваем по центру */
+}
+.menu
+{
+	width:200px;
+	font-family: corbel;
+vertical-align:top;
+background:#E8FCFF;
+}
+
+.table_verst {
+	width:1140px;
+	position:relative;
+margin: auto; /* Выравниваем по центру */
+}
+table
+{
+	position:relative;		
+	border-spacing: 4px;		 
+	margin:auto;
+	width:800px;
+	text-align:justify;
+	font-family: corbel;
+	font-size:12pt;	
+	color:black;
+}
+tr{
+	
+	
+}
+td{
+border:1px solid #F6C942;
+}
+/* параметры кнопок зеленого меню */ 
+.head_btn
+{
+	font-family: corbel;
+	color: #E8FCFF;
+	width: auto;
+	height:auto;
+	position:relative;
+    float:left;
+	padding-left:10px;
+	padding-right:10px;
+	border:2px solid  white;
+	background: #004C59;     
+}
+.head_btn:hover {background: #01152D; color: white;}
+
+.logotip
+{ 
+	margin-left:55px;
+	position:relative;
+	
+}
+
+/* параметры выпад меню */ 
+
+ul#menu, ul#menu ul {
+  list-style-type:none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  
+}
+
+ul#menu a,ul#menu span { display: block; text-decoration: none;cursor:pointer;}
+
+ul#menu li { margin-top: 1px; }
+
+ul#menu li a,ul#menu li span {
+  background: #004C59;
+  color: #FFFFFF;
+  padding: 7px; 
+}
+
+ul#menu li a:hover,ul#menu li span:hover { background: #01152D; }
+
+ul#menu li ul li a {
+  background: #E8FCFF;
+  color: #004C59;
+  padding-left: 20px;
+}
+
+ul#menu li ul li a:hover {
+  background: #01152D;
+  color: #FFFFFF;
+  border-left: 5px #004C59 solid;
+  padding-left: 15px;
+}
+
+/* Форматирование текста */ 
+.btn_lab_and_lection
+{
+background: #E8FCFF;
+  color: #004C59;
+  padding-left: 20px;
+text-align:center;  
+}
+.zaglav
+{
+width:auto;
+height:50px;
+  background: url(../img/flag.png);
+  background-repeat: no-repeat;
+position:relative;
+  margin: auto;
+  padding-top:15px;
+  font-size:18pt;
+  text-align:center;
+  font-weight:bold;
+  font-family: corbel;
+  color:#FFCE42;
+}
+
+h1
+{
+	font-family: corbel;
+	 font-size:18pt;
+	font-weight:bold;
+	text-align:left;
+	color:#004C59;	 margin-top: 0.10em; /* Отступ сверху */
+    margin-bottom: 0.05em; /* Отступ снизу */
+
+}
+#spisok
+{
+	font-family: corbel;
+	font-size:12pt;
+	 color: #5C8A8F;
+	 list-style-image: url(../img/Strel.png); /* Путь к файлу с маркером */
+}
+h2
+{
+	font-family: corbel;
+	font-size:16pt;
+	font-weight:bold;
+	color:#02142A;
+	text-shadow: 0.4px 1px 2px #4B8BF5;
+	
+}
+h3
+{
+font-family: corbel;
+	font-size:12pt;	
+	color:black;
+	 margin-top: 0.10em; /* Отступ сверху */
+    margin-bottom: 0.05em; /* Отступ снизу */
+	font-style:normal;
+	
+}
+
+#img { 
+width:400px; transition:width 0.5s ease; 
+}
+#statya
+ { 
+ text-align: center; /* Выравнивание по центру */
+    font-style: italic; /* Курсивное начертание */
+ width:700px; 
+ margin:auto;
+  
+}
+
+#statya:hover img
+ { 
+ width:700px; 
+}
+
+
+
+
+pre
+{
+	color:#EFE906;
+}
+
+
+p{
+	text-indent: 1.5em;
+	text-align:justify;
+	font-family: corbel;
+	font-size:12pt;	
+	color:black;
+	 margin-top: 0.10em; /* Отступ сверху */
+    margin-bottom: 0.05em; /* Отступ снизу */
+}
+
+.spiski
+{
+	font-family: consolas;
+	font-size:12pt;
+	color:#017D49;	
+}
+.kodc
+{	
+	background: url(../img/csharp.png) #0F5059;
+	background-repeat: no-repeat;
+	padding-left:5px;
+	margin:auto;
+	overflow-x: scroll; /* прокрутка по горизонтали */
+	overflow-y: scroll; /* прокрутка по вертикали */
+	height: auto; /* высота нашего блока */
+	max-height: 200px; /* высота нашего блока */
+	width: 870px; /* ширина нашего блока */	
+}
+.kodx
+{	
+	background: url(../img/xaml.png) #0F5059;
+	background-repeat: no-repeat;
+	padding-left:5px;
+	margin:auto;
+	overflow-x: scroll; /* прокрутка по горизонтали */
+	overflow-y: scroll; /* прокрутка по вертикали */
+	height: auto; /* высота нашего блока */
+	max-height: 200px; /* высота нашего блока */
+	width: 870px; /* ширина нашего блока */	
+}
